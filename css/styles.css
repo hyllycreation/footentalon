@@ -624,6 +624,11 @@ form {
   display: block
 }
 
+#formErr {
+  margin-top: 12px;
+  text-align: center
+}
+
 /* success state */
 .success {
   display: none;
@@ -676,21 +681,6 @@ form {
   color: var(--ink-dim);
   max-width: 42ch;
   margin: 0 auto 22px
-}
-
-.success .dl {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background: var(--ink);
-  color: var(--bg);
-  font-family: 'Anton';
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  font-size: 16px;
-  padding: 15px 26px;
-  border-radius: 12px;
-  text-decoration: none
 }
 
 /* ====== STADE STRIP ====== */
