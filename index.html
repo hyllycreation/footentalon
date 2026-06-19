@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50 Secrets des Stades — Le guide des passionnés</title>
+  <meta name="description"
+    content="Les histoires méconnues des plus grands stades du foot français. 13 stades, 50 secrets vérifiables. Gratuit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="glow"></div>
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <header class="topbar">
+    <div class="wrap">
+      <a href="#" class="brand">
+        <span class="mark">X</span>
+        <span>
+          <b>Foot en Talon</b>
+          <span>Le vrai foot · chaque jour</span>
+        </span>
+      </a>
+      <div class="tagline-top">Le guide des passionnés</div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="dot"></span> Guide gratuit · PDF</span>
+          <h1>50 Secrets<br>des Stades <span class="x">×</span></h1>
+          <p class="lead">Les visites officielles te montrent les tribunes et la boutique. Jamais ce qu'il y a
+            <strong>sous la pelouse, dans les fondations, derrière les façades.</strong> 50 histoires vraies et
+            vérifiables sur 13 stades cultes, <strong>de quoi clouer le bec à n'importe quel pote qui se croit
+              incollable.</strong></p>
+          <div class="proof">
+            <div class="stat"><span class="num"><em>13</em></span><span class="lbl">Stades de légende</span></div>
+            <div class="sep"></div>
+            <div class="stat"><span class="num"><em>50</em></span><span class="lbl">Secrets vérifiés</span></div>
+            <div class="sep"></div>
+            <div class="stat"><span class="num">100%</span><span class="lbl">Gratuit · sans spam</span></div>
+          </div>
+          <div class="hero-cta">
+            <a href="#leadForm" class="cta-btn">
+              Recevoir le guide gratuit
+              <svg viewBox="0 0 24 24" fill="none" stroke="#140d08" stroke-width="2.6" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </a>
+            <div class="social-proof">
+              <span class="stars">★★★★★</span>
+              <span>Déjà <b>1 380</b> passionnés l'ont reçu</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-frame">
+            <span class="badge-pdf">PDF · 16 pages</span>
+            <img src="assets/images/hero-cover.jpg" alt="Real Talk Football">
+          </div>
+          <div class="float-card">
+            <span class="ic">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#13110e" stroke-width="2.4" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 2 4 6v6c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z" />
+              </svg>
+            </span>
+            <div>
+              <div class="t">Faits vérifiables</div>
+              <div class="s">Pas de légendes urbaines.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLUB STRIP -->
+  <div class="strip">
+    <div class="wrap strip-inner">
+      <span class="lbl">À l'intérieur&nbsp;:</span>
+      <div class="clubs">
+        <span class="club">PSG</span><span class="club">OM</span><span class="club">OL</span>
+        <span class="club">Lille</span><span class="club">Monaco</span><span class="club">Lens</span>
+        <span class="club">ASSE</span><span class="club">Nice</span><span class="club">Strasbourg</span>
+        <span class="club">Nantes</span><span class="club">Rennes</span><span class="club">Bordeaux</span>
+        <span class="club">Bleus</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM -->
+  <section class="capture">
+    <div class="wrap">
+      <div class="card">
+        <span class="card-x">×</span>
+
+        <!-- FORM VIEW -->
+        <div id="formView">
+          <h2>Reçois le guide<br>maintenant</h2>
+          <p class="sub">Entre ton email, on t'envoie le PDF direct. 10 secondes, c'est plié.</p>
+          <div class="social-proof">
+            <span class="stars">★★★★★</span>
+            <span>Déjà <b>1 380</b> passionnés l'ont téléchargé</span>
+          </div>
+
+          <form id="leadForm" novalidate>
+            <!-- EMAIL (le seul champ obligatoire visible) -->
+            <div>
+              <label class="field-label" for="email">Ton email <b>·</b> pour recevoir le guide</label>
+              <div class="email-row">
+                <input type="email" id="email" name="email" inputmode="email" autocomplete="email"
+                  placeholder="prenom@email.com" required>
+              </div>
+              <div class="err-msg" id="emailErr">Glisse un email valide pour qu'on t'envoie le PDF.</div>
+            </div>
+
+            <!-- PROFIL -->
+            <div>
+              <label class="field-label">Tu es plutôt&nbsp;? <span
+                  style="color:var(--ink-faint);font-weight:600;letter-spacing:0;text-transform:none">(optionnel)</span></label>
+              <div class="seg" id="profilSeg">
+                <label class="opt" data-val="supporter">
+                  <input type="radio" name="profil" value="supporter">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#13110e" stroke-width="3.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg></span>
+                  <span class="oic">🔥</span><span class="ot">Supporter</span>
+                </label>
+                <label class="opt" data-val="joueur">
+                  <input type="radio" name="profil" value="joueur">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#13110e" stroke-width="3.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg></span>
+                  <span class="oic">⚽</span><span class="ot">Joueur</span>
+                </label>
+                <label class="opt" data-val="parent">
+                  <input type="radio" name="profil" value="parent">
+                  <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="#13110e" stroke-width="3.5"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg></span>
+                  <span class="oic">👪</span><span class="ot">Parent</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- CATEGORIE (conditionnel) -->
+            <div class="cat-block" id="catBlock">
+              <label class="field-label" id="catLabel" for="categorie">Catégorie d'âge</label>
+              <div class="select-wrap">
+                <select id="categorie" name="categorie">
+                  <option value="">Sélectionne…</option>
+                  <option value="petit-terrain">Petit terrain · U6 à U9 (foot à 4 / à 5)</option>
+                  <option value="demi-terrain">Demi-terrain · U10 à U13 (foot à 8)</option>
+                  <option value="grand-terrain">Grand terrain · U14 à U18 (foot à 11)</option>
+                  <option value="senior">Sénior · foot à 11</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="submit">
+              Envoie-moi le guide
+              <svg viewBox="0 0 24 24" fill="none" stroke="#140d08" stroke-width="2.6" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+            <div class="reassure">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </svg>
+              Zéro spam. Désabonnement en 1 clic. Email jamais revendu.
+            </div>
+          </form>
+        </div>
+
+        <!-- SUCCESS VIEW -->
+        <div class="success" id="successView">
+          <div class="seal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M20 6 9 17l-5-5" />
+            </svg>
+          </div>
+          <h3>Bienvenue dans le cercle</h3>
+          <p>Ton guide arrive dans ta boîte mail. Si tu ne le vois pas, jette un œil aux spams (et marque-nous comme «
+            pas spam », ça aide).</p>
+          <a class="dl" href="#" id="dlBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" />
+            </svg>
+            Télécharger le PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEASER SECRETS -->
+  <section class="teaser">
+    <div class="wrap">
+      <h2>Un avant-goût <span class="x">×</span></h2>
+      <p class="intro">Trois secrets parmi les cinquante. Le reste t'attend dans le PDF.</p>
+      <div class="cards">
+        <article class="secret">
+          <div class="no">№ 25</div>
+          <div class="club">Geoffroy-Guichard · ASSE</div>
+          <p>Le « Chaudron » a été bâti sur <b>un ancien dépôt de détritus.</b> Et son match d'inauguration ? Une
+            déroute 1-9 contre Cannes.</p>
+        </article>
+        <article class="secret">
+          <div class="no">№ 18</div>
+          <div class="club">Louis-II · AS Monaco</div>
+          <p>Sous la pelouse se cachent <b>une piscine, une salle omnisports et un parking.</b> Les joueurs évoluent
+            au-dessus d'un complexe entier.</p>
+        </article>
+        <article class="secret">
+          <div class="no">№ 33</div>
+          <div class="club">La Meinau · Strasbourg</div>
+          <p>Inauguré en 1914 en territoire allemand, le stade <b>a « changé de pays » sans jamais bouger d'un
+              mètre.</b></p>
+        </article>
+      </div>
+      <div class="recall">
+        <a href="#leadForm">
+          Je veux les 47 autres
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="fx">FOOT EN TALON · LE VRAI FOOT · CHAQUE JOUR</div>
+      <div class="socials">
+        <a href="https://instagram.com/footentalon" target="_blank" rel="noopener" aria-label="Instagram @footentalon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@footentalon" target="_blank" rel="noopener" aria-label="TikTok @footentalon">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@footentalon" target="_blank" rel="noopener" aria-label="YouTube @footentalon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path
+              d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+            <path d="m10 15 5-3-5-3z" />
+          </svg>
+        </a>
+      </div>
+      <p>© <span id="yr"></span> Foot en Talon — Faits vérifiables, raconte-les bien. · <a
+          href="https://instagram.com/footentalon" target="_blank" rel="noopener">@footentalon</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
